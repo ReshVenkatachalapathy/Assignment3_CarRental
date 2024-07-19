@@ -4,17 +4,17 @@ Execution Steps: Run the program.cs file(which will call the subsequent classes 
 
 List of classes:
 
-1) Program.cs(Main class): This task is the main class used for calling the other classes and passing the respective values*/
+1) Program.cs(Main class): This task is the main class used for calling the other classes and passing the respective values
 
-2) Car.cs: This task is the car class used for storing the basic properties of car like total no of seates, engine details, automatic or manual etc */
+2) Car.cs: This task is the car class used for storing the basic properties of car like total no of seates, engine details, automatic or manual etc 
 
-3) Motorcycle.cs: This task is the motorcycle class used for displaying the motor cycle details*/
+3) Motorcycle.cs: This task is the motorcycle class used for displaying the motor cycle details
 
-4) Rentalagency.cs: This task is the rental agency class used for storing the available vehicles, add/ remove vehicle and calculate the revenues*/
+4) Rentalagency.cs: This task is the rental agency class used for storing the available vehicles, add/ remove vehicle and calculate the revenues
 
-5) Truck.cs:  This task is the truck class used for displaying the truck details*/
+5) Truck.cs:  This task is the truck class used for displaying the truck details
 
-6) Vehicle.cs: This task is the vehicle class used for storing the basic vehicle details like manufacturing, model, year, and rental prices*/
+6) Vehicle.cs: This task is the vehicle class used for storing the basic vehicle details like manufacturing, model, year, and rental prices
 
 
 Author: Reshma Venkatachalpathy
