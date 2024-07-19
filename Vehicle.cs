@@ -1,27 +1,34 @@
-﻿using System;
+﻿/* Developer: Reshma Venkatachalapathy
+ * Date:27-06-2024
+ * Description: This task is the vehicle class used for storing the basic vehicle details like manufacturing, model, year, and rental prices*/
+
+
+
+using System;
 
 public class Vehicle
 {
-    public String Model { get; set; }
-    public String Manufacturer { get; set; }
+    // Properties
+    public string Model { get; set; }
+    public string Manufacturer { get; set; }
     public int Year { get; set; }
-    public int RentalPrices { get; set; }
+    public decimal RentalPrice { get; set; }
 
-
-    public Vehicle(string manufacturer, string model, int year, int rentalPrices)
+    // Constructor
+    public Vehicle(string model, string manufacturer, int year, decimal rentalPrice)
     {
         Model = model;
         Manufacturer = manufacturer;
         Year = year;
-        RentalPrices = rentalPrices;
+        RentalPrice = rentalPrice;
     }
 
-    public void DisplayDetails()
+    // Method to display details
+    public virtual void DisplayDetails()
     {
-        Console.WriteLine($"Vehicle Make: {this.Manufacturer}");
-        Console.WriteLine($"Vehicle Make: {this.Model}");
-        Console.WriteLine($"Vehicle Make: {this.Year}");
-        Console.WriteLine($"Vehicle Make: {this.RentalPrices}");
+        Console.WriteLine($"Model: {Model}");
+        Console.WriteLine($"Manufacturer: {Manufacturer}");
+        Console.WriteLine($"Year: {Year}");
+        Console.WriteLine($"Rental Price: {RentalPrice:C}");
     }
-
 }
